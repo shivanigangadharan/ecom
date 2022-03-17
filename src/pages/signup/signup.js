@@ -1,5 +1,6 @@
 import React from 'react';
 import '../login/login.css';
+import { Link } from 'react-router-dom';
 
 export default function Signup() {
     return (
@@ -27,10 +28,10 @@ export default function Signup() {
                         </div>
                         <button class="btn login">Create new account</button>
                         <div class="create">
-                            <a href="./login.html">
+                            <Link to="/login">
                                 Already have an account
                 <i class="fa-solid fa-chevron-right"></i>
-                            </a>
+                            </Link>
                         </div>
                     </form>
                 </div>

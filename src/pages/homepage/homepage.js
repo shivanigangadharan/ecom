@@ -1,6 +1,7 @@
 import React from 'react';
 import './homepage.css';
 import '../../components.css';
+import { Link } from 'react-router-dom';
 
 export default function Homepage() {
     return (
@@ -16,9 +17,9 @@ export default function Homepage() {
 
                 <div class="content-grid">
                     <div class="section-main">
-                        <a href="./pages/products/product.html">
+                        <Link to="/productlist">
                             <button class="btn secondary"> View products </button>
-                        </a>
+                        </Link>
                     </div>
 
                     <div class="section-sub s1">
